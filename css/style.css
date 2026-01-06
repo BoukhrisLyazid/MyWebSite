@@ -1689,3 +1689,94 @@ section.route{
 .title-box{
   margin-bottom: 3rem;
 }
+
+
+/* ==============================
+   RECOMMANDATIONS (SWIPER)
+============================== */
+.reco-mf{
+  background: #fff;
+  padding: 4rem 0;
+}
+
+.reco-slider{
+  padding: 8px 0 44px; /* espace pour la pagination */
+}
+
+.reco-card{
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(15,23,42,.08);
+  box-shadow: 0 10px 22px rgba(15,23,42,.06);
+  padding: 18px;
+  height: 100%;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.reco-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(15,23,42,.10);
+}
+
+.reco-head{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.reco-avatar{
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 2px solid rgba(15,23,42,.10);
+}
+
+.reco-name{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.reco-role{
+  color: #64748b;
+}
+
+.reco-text{
+  margin: 0;
+  color: #4e4e4e;
+  line-height: 1.5;
+}
+
+/* pagination style */
+.reco-slider .swiper-pagination{
+  bottom: 8px !important;
+}
+
+.reco-slider .swiper-pagination-bullet{
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: rgba(0,0,0,.18);
+}
+
+.reco-slider .swiper-pagination-bullet-active{
+  background: grey;
+}
+
+/* flèches */
+.reco-slider .swiper-button-prev,
+.reco-slider .swiper-button-next{
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.45);
+}
+
+.reco-slider .swiper-button-prev:after,
+.reco-slider .swiper-button-next:after{
+  font-size: 16px;
+}
