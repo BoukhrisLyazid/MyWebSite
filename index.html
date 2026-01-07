@@ -83,13 +83,21 @@
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
+
                       <div class="about-info">
                         <p><span class="title-s">Nom :</span> <span>Boukhris Lyazid</span></p>
                         <p><span class="title-s">Profil :</span> <span>Ingénieur Informatique</span></p>
                         <p><a href="mailto:mboukpro22@gmail.com"><span class="title-s">Email :</span> <span>mboukpro22@gmail.com</span></a></p>
                         <p><a href="tel:0664316153"><span class="title-s">Téléphone :</span> <span>06 64 31 61 53</span></a></p>
                       </div>
+                                          <div class="mb-3">
+  <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#modalCvVideo">
+    <i class="bi bi-play-circle me-1"></i> My First CV Vidéo
+  </button>
+</div>
                     </div>
+
+
                   </div>
                 </div>
 
@@ -333,31 +341,30 @@
 
         <div class="row g-4">
 
-          <!-- PROJET 1 : Puissance 4 -->
+
+
+          
+
+          <!-- PROJET 6 -->
           <div class="col-md-6 col-lg-4" data-aos="zoom-in">
             <div class="card project-card h-100 shadow-sm">
-              <!-- Mets ici une image de ton Puissance 4 (screenshot) -->
-              <img src="img/puissance4.jpg" class="card-img-top project-img" alt="Puissance 4">
+              <img src="img/OpenGL.png" class="card-img-top project-img" alt="App réunions de chantier">
               <div class="card-body">
-                <h5 class="card-title mb-2">Puissance 4</h5>
-
+                <h5 class="card-title mb-2">OpenGl</h5>
                 <p class="card-text text-muted mb-3">
-                  Implémentation numérique du jeu Puissance 4 avec IA MiniMax et élagage alpha-bêta.
+                 Implémentation d'une scène virtuelle
                 </p>
 
-                <div class="d-flex flex-wrap gap-2 mb-3">
-                  <span class="badge text-bg-light">IA</span>
-                  <span class="badge text-bg-light">MiniMax</span>
-                  <span class="badge text-bg-light">Alpha-Bêta</span>
-                  <span class="badge text-bg-light">Jeu</span>
-                </div>
+        
 
-                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal7">
                   Voir détails
                 </button>
               </div>
             </div>
           </div>
+
+       
 
 
 
@@ -368,7 +375,7 @@
               <div class="card-body">
                 <h5 class="card-title mb-2">Outil de correction CSV/eCSV (ITACA)</h5>
                 <p class="card-text text-muted mb-3">
-                  Validation et correction de fichiers CSV/eCSV pour un process santé.
+                  Validation et correction de fichiers CSV/eCSV
                 </p>
 
                 <div class="d-flex flex-wrap gap-2 mb-3">
@@ -393,8 +400,7 @@
               <div class="card-body">
                 <h5 class="card-title mb-2">Projet DevOps</h5>
                 <p class="card-text text-muted mb-3">
-                  Mise en place d'un workflow CI/CD (lint, tests Jest, build, push, déploiement) pour une application de gestion de listes/tâches, 
-                  conteneurisée avec Docker et déployée automatiquement sur Kubernetes
+                  Mise en place d'un workflow CI/CD
                 </p>
 
                 <div class="d-flex flex-wrap gap-2 mb-3">
@@ -440,9 +446,6 @@
                 <p class="card-text text-muted mb-3">
                  Introduction to Docker
                 </p>
-
-        
-
                 <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal5">
                   Voir détails
                 </button>
@@ -460,15 +463,40 @@
                 <p class="card-text text-muted mb-3">
                  SQL vs NoSQL
                 </p>
-
-        
-
                 <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal6">
                   Voir détails
                 </button>
               </div>
             </div>
           </div>
+
+
+
+             <!-- PROJET 1 : Puissance 4 -->
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+            <div class="card project-card h-100 shadow-sm">
+              <img src="img/puissance4.jpg" class="card-img-top project-img" alt="Puissance 4">
+              <div class="card-body">
+                <h5 class="card-title mb-2">Puissance 4</h5>
+
+                <p class="card-text text-muted mb-3">
+                  Implémentation numérique du jeu Puissance 4
+                </p>
+
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <span class="badge text-bg-light">IA</span>
+                  <span class="badge text-bg-light">MiniMax</span>
+                  <span class="badge text-bg-light">Alpha-Bêta</span>
+                  <span class="badge text-bg-light">Jeu</span>
+                </div>
+
+                <button class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                  Voir détails
+                </button>
+              </div>
+            </div>
+          </div>
+
 
         </div>
       </div>
@@ -1118,6 +1146,48 @@
   </div>
 
 
+    <!-- MODAL 6 -->
+  <div class="modal fade" id="projectModal7" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModal3Label">Projet DevOps</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+
+          <div class="modal-body">
+            <img src="img/OpenGL.png" class="w-100 rounded mb-3" alt="SETRAT screenshot">
+
+
+             <h6 class="mb-2">Démo vidéo</h6>
+
+        <!-- Vidéo locale -->
+        <div class="ratio ratio-16x9 rounded overflow-hidden mb-3">
+          <video id="devopsVideo" controls preload="metadata">
+            <source src="report/BOUKKHRIS_Mohamed_Lyazid_OpenGLAPP_small.mp4" type="video/mp4">
+            Ton navigateur ne supporte pas la lecture vidéo.
+          </video>
+        </div>
+
+            <h6 class="mb-2">Description</h6>
+            <p class="text-muted">
+          
+            </p>
+
+            <h6 class="mb-2">Ressources</h6>
+            <div class="d-flex flex-wrap gap-2">
+              
+              <a class="btn btn-dark btn-sm" href="https://github.com/BoukhrisLyazid/OpenGL" target="_blank">Code source (GitHub)</a>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 
@@ -1480,6 +1550,46 @@
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="modalCvVideo" tabindex="-1" aria-labelledby="modalCvVideoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCvVideoLabel">CV Vidéo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <video controls preload="metadata">
+            <source src="report/Cv_Video_BOUKHRIS_Mohamed_Lyazid (1).mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
+        </div>
+
+        <p class="text-muted mt-3 mb-0">
+          Présentation rapide de mon parcours, mes compétences et mon projet professionnel.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fermer</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 </body>
