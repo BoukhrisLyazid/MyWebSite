@@ -2079,3 +2079,41 @@ section.route{
     height: 90px;
   }
 }
+/* ==============================
+   COMPÉTENCES RESPONSIVE FIX
+============================== */
+@media (max-width: 768px) {
+  .skill-mf .skill {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    overflow-x: hidden;
+    justify-items: center;
+  }
+
+  .skill-mf .skill-tech {
+    flex: unset;
+    width: 100%;
+  }
+
+  .skill-mf .skill-tech span {
+    font-size: 11px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .skill-mf .skill-tech i.fa-solid {
+    font-size: 28px;
+  }
+
+  .skill-mf .skill-tech img.skill-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .skill-mf .skill {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
